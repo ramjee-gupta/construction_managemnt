@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Construction Management</string>
+    <string name="title_login">Login</string>
+    <string name="label_sign_in">Sign in</string>
+    <string name="label_email">Email</string>
+    <string name="label_enter_your_email_address">Enter your email ID</string>
+    <string name="label_password">Password</string>
+    <string name="label_forgot_password">Forgot password</string>
+    <string name="enter_password">Enter password</string>
+    <string name="label_dont_have_an_account_sign_up">Don\'t have an account? Signup</string>
+    <string name="title_sign_up">Sign up</string>
+    <string name="label_full_name">Full name</string>
+    <string name="enter_name">Enter full name</string>
+    <string name="label_submit">Submit</string>
+    <string name="label_already_have_an_account_log_in">Already have an account? Sign in</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="profile">Profile</string>
+    <string name="mandatory_fields_msg">All fields are mandatory</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rewards_text">Click here to join us to get more rewards</string>
+    <string name="thanks_msg">Thank you for joining our rewards program</string>
+    <string name="product_highlights">Product Highlights</string>
+    <string name="user_name">User Name:</string>
+    <string name="balance">Balance:</string>
+    <string name="date_of_birth">Date of birth:</string>
+    <string name="address">Address:</string>
+    <string name="earned_points">Earned points:</string>
+    <string name="title_activity_select_app_language">SelectAppLanguageActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="select_your_app_language">Select Your App Language</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="others">Others</string>
+    <string name="select_role_label">Use Labormate as</string>
+    <string name="you_re_a_labourer">You’re a Labourer</string>
+    <string name="You_re_ontractor">You’re a Contractor</string>
+    <string name="you_re_a_developer">You’re a Developer</string>
+    <string name="enter_your_details">Enter your Details</string>
+
+
+</resources>

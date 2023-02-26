@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="24dp"
+    android:layout_marginBottom="24dp">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Label"/>
+    <TextView
+        android:id="@+id/astrikMarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" *"
+        android:visibility="gone"
+        android:layout_toEndOf="@+id/label"
+        android:textColor="@color/color_AB0000"/>
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        style="@style/spinner_style"
+        android:paddingEnd="0dp"
+        android:paddingStart="0dp"
+        android:layout_below="@+id/label" />
+
+</RelativeLayout>

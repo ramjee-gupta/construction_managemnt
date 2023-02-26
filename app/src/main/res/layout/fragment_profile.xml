@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_FBF6F3"
+    tools:context=".dashboard.ui.ProfileFragment">
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/profile"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <include
+        android:id="@+id/progressBar"
+        layout="@layout/partial_progress_bar" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header_title"
+        android:paddingHorizontal="24dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/userProfile"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="24dp" />
+
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userProfile"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/userNameLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userName"
+                android:layout_marginTop="24dp"
+                android:text="@string/user_name"
+                android:textColor="@color/black"
+                android:layout_marginEnd="24dp" />
+
+            <TextView
+                android:id="@+id/userNameValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userName"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="24dp"
+                android:textColor="@color/color_868686" />
+
+            <TextView
+                android:id="@+id/balanceLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userNameLabel"
+                android:layout_marginTop="24dp"
+                android:text="@string/balance"
+                android:layout_marginEnd="24dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/balanceValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userNameValue"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="24dp"
+                android:textColor="@color/color_868686" />
+
+            <TextView
+                android:id="@+id/dobLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/balanceLabel"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:text="@string/date_of_birth"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/dobValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/balanceValue"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="24dp"
+                android:textColor="@color/color_868686" />
+
+            <TextView
+                android:id="@+id/addressLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dobLabel"
+                android:layout_marginTop="24dp"
+                android:text="@string/address"
+                android:layout_marginEnd="48dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/addressValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dobValue"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="24dp"
+                android:gravity="end"
+                android:layout_toEndOf="@+id/addressLabel"
+                android:text=""
+                android:textColor="@color/color_868686" />
+
+            <TextView
+                android:id="@+id/earnedPointLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/addressValue"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:text="@string/earned_points"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/earnedPointValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/addressValue"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="24dp"
+                android:textColor="@color/color_868686" />
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>
